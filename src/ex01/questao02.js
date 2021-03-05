@@ -20,7 +20,7 @@ async function doAll(){
 doAll()
   .then((result) => {
     for (let i = 0; i < result.length; i++) {
-      console.log("func", i+1, ": ", result[i]);
+      console.log("func"+ (i+1)+ ": "+ result[i]);
     }
   })
   .catch((error) =>{
