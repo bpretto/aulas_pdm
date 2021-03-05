@@ -18,9 +18,11 @@ async function doAll(){
 }
 
 doAll()
- .then((result) => {
-   console.log("func1: ", result.slice(0,1), "\nfunc2: ", result.slice(1,2), "\nfunc3: ", result.slice(2,3));
- })
- .catch((error) =>{
-   console.log(error);
- })
+  .then((result) => {
+    for (let i = 0; i < result.length; i++) {
+      console.log("func", i+1, ": ", result[i]);
+    }
+  })
+  .catch((error) =>{
+    console.log(error);
+  });
