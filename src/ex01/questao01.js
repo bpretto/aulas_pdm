@@ -5,6 +5,18 @@ valor deve ser multiplicado com um valor fixo pré-definido entre 0 a 20 no par�
 Cada função deve retornar o valor dessa multiplicação. Em seguida, faça a chamada das funções com o .then
 imprimindo uma mensagem antes da sua chamada, em seguida mostre o resultado da multiplicação com o
 respectivo intervalo entre cada uma delas.
+
+function func1() {}
+function func2() {}
+function func3() {}
+func1()
+.then(() => {
+return;
+})
+.then(() => {
+return;
+})
+.then((result) => console.log(result));
 */
 
 number = 4;
