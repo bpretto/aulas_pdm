@@ -1,3 +1,8 @@
+/*
+Utilize o código-fonte anterior e refatore as 3 funções utilizando a sintaxe do async/await, não utilizar a sintaxe
+promise da questão anterior.
+*/
+
 number = 4;
 
 async function func1(number) {

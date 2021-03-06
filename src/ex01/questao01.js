@@ -1,3 +1,12 @@
+/*
+Complete o código-fonte JavaScript abaixo, cada função deve retornar uma promise que seja executada com o
+intervalo de 1 segundo entre cada função. Cada função deve receber um parâmetro de um valor numérico, esse
+valor deve ser multiplicado com um valor fixo pré-definido entre 0 a 20 no parâmetro do resolve da promise.
+Cada função deve retornar o valor dessa multiplicação. Em seguida, faça a chamada das funções com o .then
+imprimindo uma mensagem antes da sua chamada, em seguida mostre o resultado da multiplicação com o
+respectivo intervalo entre cada uma delas.
+*/
+
 number = 4;
 
 function func1(number) {
